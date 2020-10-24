@@ -1,0 +1,97 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "520d992f-dcfb-4cd8-a52b-fa7d98b10f31": {
+        "id": "520d992f-dcfb-4cd8-a52b-fa7d98b10f31",
+        "parent": null,
+        "name": "mysecandprojet.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "mysecandprojet.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 4
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "mysecandprojet"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigapitest2moayeget",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1603501421164
+      }
+    },
+    "openFiles": [
+      "520d992f-dcfb-4cd8-a52b-fa7d98b10f31"
+    ],
+    "currentFileId": "520d992f-dcfb-4cd8-a52b-fa7d98b10f31",
+    "resources": {
+      "apigapitest2moayeget": {
+        "name": "apigapitest2moayeget",
+        "type": "API_GATEWAY",
+        "config": {
+          "apiType": 1,
+          "apiMode": 0,
+          "apiName": "apitest2",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "moaye",
+          "resourcePath": "/moaye",
+          "restMethod": "GET",
+          "proxyIntegration": true,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "qas",
+          "mode": 0
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.4.1",
+    "projectName": "mysecandprojet",
+    "projectDescription": "http get lambda",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1603501774270
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "mysecandprojet",
+      "url": "https://github.com/fgaoudi/mysecandprojet"
+    }
+  }
+}
