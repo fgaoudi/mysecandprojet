@@ -1,4 +1,9 @@
 exports.handler = async (event) => {
-    
-    return {"message": "Successfully executed"};
+     // TODO implement
+    const response = {
+        statusCode: 200,
+        body: JSON.stringify('Hello Fabrice!'),
+    };
+    return response;
+  
 };

@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "mysecandprojet.js",
         "cursor": {
-          "lineNumber": 2,
-          "column": 4
+          "lineNumber": 9,
+          "column": 3
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -85,7 +85,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1603501774270
+    "lastSave": 1603501872200
   },
   "VCS_STATE": {
     "provider": "GitHub",
